@@ -25,3 +25,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## entity-relationship diagram quotation
+![diagrama entidad relacion cotizador](https://github.com/CristopherReyesP/CotizadorFront/assets/48874070/a9cf2dd9-c9fe-4cdb-a7ba-33416a75b38f)
