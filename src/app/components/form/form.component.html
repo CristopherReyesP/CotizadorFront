@@ -1,0 +1,35 @@
+<!-- form.component.html -->
+<div class="container">
+
+<form class="form" (ngSubmit)="onSubmit()">
+    <label class="form__label" for="peso">Peso:</label>
+    <input class="form__input" type="number" id="peso" name="peso" [(ngModel)]="peso" required>
+
+    <label class="form__label" for="ancho">Ancho:</label>
+    <input class="form__input" type="number" id="ancho" name="ancho" [(ngModel)]="ancho" required>
+
+    <label class="form__label" for="alto">Alto:</label>
+    <input class="form__input" type="number" id="alto" name="alto" [(ngModel)]="alto" required>
+
+    <label class="form__label" for="largo">Largo:</label>
+    <input class="form__input" type="number" id="largo" name="largo" [(ngModel)]="largo" required>
+
+    <label class="form__label" for="paisDestino">País de Destino:</label>
+    <select class="form__input" id="paisDestino" name="paisDestino" [(ngModel)]="paisDestino" required>
+      <!-- Agrega opciones según tus necesidades -->
+      <option value="pais1">País 1</option>
+      <option value="pais2">País 2</option>
+      <!-- ... -->
+    </select>
+
+    <label class="form__label" for="paisOrigen">País de Origen:</label>
+    <select class="form__input" id="paisOrigen" name="paisOrigen" [(ngModel)]="paisOrigen" required>
+      <!-- Agrega opciones según tus necesidades -->
+      <option value="pais1">País 1</option>
+      <option value="pais2">País 2</option>
+      <!-- ... -->
+    </select>
+
+  <button class="button" type="submit">Calcular Cotización</button>
+</form>
+</div>

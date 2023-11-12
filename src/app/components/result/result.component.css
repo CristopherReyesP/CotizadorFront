@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  flex-direction: column;  width: 100%;
+  height: auto;
+}
+
+.container :first-child{
+display: block;}
+
+@media screen and (max-width: 997px) {
+  .container form{
+    width: 100%;
+    height: auto;
+  }
+  .form__input{
+    width: 90%;
+
+  }
+}
+@media screen and (max-width: 600px) {
+
+}
